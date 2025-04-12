@@ -1,10 +1,9 @@
-import ForgotPasswordPage from './pages/forgot-password/forgot-password-page';
-import ResetPasswordPage from './pages/reset-password/reset-password-page';
+import SignUpPage from './pages/sign-up/sign-up-page';
 
 function App() {
   return (
     <>
-      <ForgotPasswordPage />
+      <SignUpPage />
     </>
   );
 }
