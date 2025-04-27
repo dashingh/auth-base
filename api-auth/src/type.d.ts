@@ -1,7 +1,8 @@
 interface UserPayload {
+  _id: string;
   name: string;
   email: string;
-  role: string;
+  roles: string[];
 }
 
 declare namespace Express {
